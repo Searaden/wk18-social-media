@@ -1,0 +1,55 @@
+1. Start Server
+    node app.js
+
+2. Get Thoughts and users
+    http://localhost:3000/api/users
+    http://localhost:3000/api/thoughts
+
+3. get single thought and users
+    http://localhost:3000/api/thoughts/64ff24f58adb1917efc646f9
+    http://localhost:3000/api/users/64ff2591e021c96804bbb773
+
+4.post put delete users
+    http://localhost:3000/api/users/64ff2591e021c96804bbb773
+        {
+  "username": "newUsername",
+  "email": "newEmail@email.com"
+}
+
+http://localhost:3000/api/thoughts/64ff24f58adb1917efc646f9
+{
+	"thoughtText": "UPDATE"
+}
+
+{
+    "thoughtText": "A new thought",
+    "username": "user1"
+}
+
+4. post
+    http://localhost:3000/api/users
+{
+  "username": "user4",
+  "email": "newEmaafadil@email.com"
+}
+
+    delete
+5. post and delete thought
+{
+  "thoughtText": "mynewthought",
+  "username": "user3"
+}
+
+firend routs
+
+
+
+{
+  "reactionBody": "newreactions",
+	"username": "user1"
+}
+
+{
+  "friendUsername" : "64ff2591e021c96804bbb775"
+}
+
